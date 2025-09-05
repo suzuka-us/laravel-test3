@@ -38,6 +38,10 @@ https://www.docker.com/get-started/
 
 `composer create-project "laravel/laravel=10.*" .`
 
+#### laravel バージョン 11 の場合
+
+`composer create-project "laravel/laravel=11.*" .`
+
 # ③ laravel の環境を修正
 
 #### `config/app.php` の timezone を修正
