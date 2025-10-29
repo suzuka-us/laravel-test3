@@ -1,7 +1,6 @@
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-background: linear-gradient(#fff, #ee81c2);
-    /* 柔らかいピンクのグラデーション */
+    background: linear-gradient(#fff, #ee81c2);
     color: #333;
     margin: 0;
     padding: 0;
@@ -44,6 +43,7 @@ textarea {
     font-size: 14px;
 }
 
+/* ボタン統一スタイル */
 button,
 input[type="submit"] {
     background: linear-gradient(135deg, #ff80b3, #ff4da6);
@@ -52,9 +52,23 @@ input[type="submit"] {
     padding: 12px 20px;
     border-radius: 10px;
     cursor: pointer;
-    margin-top: 20px;
-    width: 100%;
     font-size: 16px;
+}
+
+/* ボタン横並び中央揃え */
+.button-group {
+    display: flex;
+    justify-content: center;
+    /* 横方向中央 */
+    gap: 15px;
+    /* ボタン間の隙間 */
+    margin-top: 20px;
+}
+
+.button-group a button {
+    width: 100%;
+    max-width: 500px;
+    /* 好きな幅に調整可能 */
 }
 
 button:hover,

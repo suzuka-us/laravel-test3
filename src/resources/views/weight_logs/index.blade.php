@@ -3,9 +3,11 @@
 @section('content')
 <div class="form-container">
     <h2>PiGLy</h2>
-    <a href="#" id="openModal"><button>データを追加</button></a>
-    <a href="{{ route('weight_logs.goal_edit') }}"><button>目標体重設定</button></a>
-    <a href="{{ route('logout') }}"><button>ログアウト</button></a>
+    <div class="button-group">
+        <a href="#" id="openModal"><button>データを追加</button></a>
+        <a href="{{ route('weight_logs.goal_edit') }}"><button>目標体重設定</button></a>
+        <a href="{{ route('logout') }}"><button>ログアウト</button></a>
+    </div>
 </div>
 
 <div class="table-container">

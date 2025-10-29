@@ -13,7 +13,11 @@
         <input type="password" name="password">
         @error('password') <p class="error">{{ $message }}</p> @enderror
 
-        <button type="submit">ログイン</button>
+        <!-- ▼ここを変更 -->
+        <div class="button-group">
+            <button type="submit">ログイン</button>
+        </div>
+        <!-- ▲ここを追加 -->
     </form>
     <a href="{{ route('register.step1') }}">アカウント作成はこちら</a>
 </div>
