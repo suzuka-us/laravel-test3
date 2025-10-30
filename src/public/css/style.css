@@ -6,6 +6,8 @@ body {
     padding: 0;
 }
 
+
+
 .container {
     max-width: 600px;
     margin: 80px auto;
@@ -79,4 +81,20 @@ input[type="submit"]:hover {
     color: red;
     font-size: 13px;
     margin-top: 4px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+}
+
+form button[type="submit"] {
+    display: block;
+    margin: 20px auto 0 auto;
+    /* 上・左右中央寄せ・下余白 */
 }
