@@ -11,8 +11,9 @@
 <body>
      <main class="main">
         <div class="container">
-           <h1>PiGLy</h1>
+           <!-- <h1>PiGLy</h1> -->
            @yield('content')
+        </div>
     </main>
 
 </body>

@@ -18,7 +18,7 @@ class AuthController extends Controller
     {
         if (Auth::attempt($request->only('email', 'password'))) {
             $request->session()->regenerate();
-            return redirect()->route('weight_logs.index');
+            return redirect()->intended(route('dashboard')); // 修正
         }
 
         return back()->withErrors(['email' => '認証に失敗しました'])->withInput();
