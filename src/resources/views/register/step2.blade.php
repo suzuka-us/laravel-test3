@@ -2,7 +2,9 @@
 
 @section('content')
 <div class="form-container">
-    <h2>初期体重登録</h2>
+    <h1>PiGLy</h1>
+    <h2>新規館員登録</h2>
+    <h3 class="step-title">ステップ2 体重データ入力</h3>
     <form method="POST" action="{{ route('register.step2.post') }}">
         @csrf
 

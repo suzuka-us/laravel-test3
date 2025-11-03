@@ -4,7 +4,7 @@
 <div class="form-container">
     <h1 class="logo-title">PiGLy</h1>
     <h2>新規会員登録</h2>
-    <h3 class="step-title">ステップ1：アカウント情報の登録</h3>
+    <h3 class="step-title">ステップ1 アカウント情報の登録</h3>
     <form method="POST" action="{{ route('register.step1') }}">
         @csrf
         <label>名前</label>
